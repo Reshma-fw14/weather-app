@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+.body{
+    max-width: 1000px;
+    max-height: fit-content;
+    margin: auto;
+    border: 5px solid white;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.top-div{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 1000px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+ img{
+    width: 30px;
+    height: 30px;
+}
+input{
+    width: 700px;
+    margin: auto;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    color: #000000;
+}
+.daily-card{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.daily-handle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+}
+.daily-handle:hover{
+border: 5px solid #54BAB9;
+}
+.text-data{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.week-day{
+    color:darkgray;
+}
+.temp-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.temp-text{
+    font-size: 30px;
+    color: black;
+    margin-left: 5px;
+}
+.temp-img img{
+    width:100px;
+    height: 100px;
+}
+.chart-div{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.pressure-humidity{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.presure{
+    font-size: 25px;
+   color:darkgray;
+}
+.humidity{
+    font-size: 25px;
+    color:darkgray;
+}
+.map{
+    width: 99%;
+    height: 400px;
+    margin-right: 120px;
+    border: 5px solid white;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.map > #dis1{
+    width: 40%;
+    height: 400px;
+}
+.date-time{
+    margin-left: 300px;
+   color:darkgray;
+}
